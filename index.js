@@ -67,7 +67,7 @@ function startHourlyProcess() {
 
     setTimeout(() => {
       restartProcess();
-    }, 3600000);
+    }, 1000 * 60 * 60 * 24);
   }
 
   restartProcess();
