@@ -11,7 +11,7 @@ class Bot {
 
   async connect(token, proxy = null) {
     try {
-      const userAgent = 'Mozilla/5.0 ... Safari/537.3';
+      const userAgent = 'Mozilla/5.0 Chrome/110.0.0.0 Safari/537.3';
       const accountInfo = await this.getSession(token, userAgent, proxy);
 
       console.log(
